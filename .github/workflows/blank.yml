@@ -37,5 +37,7 @@ jobs:
       - name: python-stdeb
     # You may pin to the exact commit or the version.
     # uses: lpenz/ghaction-python-stdeb@cfd9d0205c9fbaa8b927938c8de9fd40453c15ba
-        uses: lpenz/ghaction-python-stdeb@v0.3
+      - name: Buildozer action
+        uses: ArtemSBulgakov/buildozer-action@v1.1.3
+
        
